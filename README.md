@@ -101,7 +101,7 @@ Nophar Shalom, Wiam Salih
 ![]()
 
 ### Design Process and Methods
-
+![reachylegoteacherideation](images/reachylegoteacherideation.png)
 
 ### Decisions and Feasibility
 
@@ -120,6 +120,3 @@ Nophar Shalom, Wiam Salih
 
 
 ---
-
-## Extra Credit (5 pts)
-**Feedback form completed:**
