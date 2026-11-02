@@ -55,7 +55,19 @@ Nophar Shalom, Wiam Salih
 ![]()
 
 ### Description
+![reachynametagAI](images/reachynametagAI.png)
 
+Our nametag is for MIMI, which stands for "My Interactive Machine Instructor." This is the persona we gave Reachy Mini for our educational game. 
+
+We made two versions of the tag:
+
+- **Recycled PLA nametag:** cut from recycled PLA sheet. "MIMI" is etched as outlined (vector-scored) letters, so the letter shapes are traced into the surface instead of filled in.
+- **Acrylic nametag:** cut from acrylic sheet. "MIMI" is raster-engraved as solid, bold letters, then filled with red so the name stands out against the plate.
+
+We also designed a badge-style logo. It shows MIMI's head and antennas above the name, set inside a starburst. It works as a visual identity for the robot's persona.
+
+**Materials:** recycled PLA sheet (3 mm) and acrylic sheet (3 mm)
+**Etched text:** "MIMI"
 
 ---
 
