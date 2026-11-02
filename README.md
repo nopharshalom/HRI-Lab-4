@@ -101,7 +101,7 @@ Nophar Shalom, Wiam Salih
 ![]()
 
 ### Design Process and Methods
-![reachylegoteacherideation](images/reachylegoteacherideation.png)
+![reachylegoteacherideation](images/reachylegoteacherideation.jpg)
 
 ### Decisions and Feasibility
 
