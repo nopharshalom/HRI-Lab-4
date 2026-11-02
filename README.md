@@ -55,7 +55,7 @@ Nophar Shalom, Wiam Salih
 ![]()
 
 ### Description
-![reachynametagAI](images/reachynametagAI.png)
+<img src="images/reachynametagAI.png" alt="reachynametagAI" width="50%">
 
 Our nametag is for MIMI, which stands for "My Interactive Machine Instructor." This is the persona we gave Reachy Mini for our educational game. 
 
