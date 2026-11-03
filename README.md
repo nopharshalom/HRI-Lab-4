@@ -7,45 +7,75 @@ Nophar Shalom, Wiam Salih
 
 ## Checkpoint 1
 
-### Interview Documentation
-**Number of teachers interviewed:**
-**Data collected (notes / audio / both):**
+We interviewed <mark>two middle school teachers: T1, a 6th grade music teacher, and T2, a 7th grade STEM and technology teacher</mark>. Data collected: <mark>written notes from two team members and an audio recording of each interview, transcribed with Zoom captions</mark>.
 
-| # | Question | Teacher A Response | Teacher B Response |
-|---|----------|--------------------|--------------------|
-| 1 |  |  |  |
-| 2 |  |  |  |
-| 3 |  |  |  |
-| 4 |  |  |  |
-| 5 |  |  |  |
+| # | Protocol question | T1 response | T2 response |
+| --- | --- | --- | --- |
+| Q1 | <mark>What topics do your students struggle with that a game could help with?</mark> | <mark>“Reading rhythm. They can clap a beat, but connecting it to quarter and half notes on paper is hard.”</mark> | <mark>“Following multi-step instructions. They skip steps and then get lost.”</mark> |
+| Q2 | <mark>What keeps middle schoolers engaged during group activities?</mark> | <mark>“Making something of their own. When they compose, even four notes, they care about it.”</mark> | <mark>“Anything they can build with their hands. Lego is huge in my room.”</mark> |
+| Q3 | <mark>What role should a robot play in the game?</mark> | <mark>“A guide that walks them through it, like a patient tutor.”</mark> | <mark>“It should explain one step at a time and wait for them, not rush.”</mark> |
+| Q4 | <mark>How should a game respond when students get something wrong?</mark> | <mark>“Let them hear the mistake. Playing back what they built is better than saying ‘wrong.’”</mark> | <mark>“Point to the step they missed and let them fix it themselves.”</mark> |
+| Q5 | <mark>What would make a robot feel friendly rather than intimidating?</mark> | <mark>“A fun personality and a name. Kids love characters.”</mark> | <mark>“Simple words. If it talks like a textbook, they tune out.”</mark> |
 
 ### Thematic Analysis
-**Analyzed by:**
 
-| Theme | Supporting Evidence |
-|-------|---------------------|
-|  |  |
-|  |  |
-|  |  |
+Interview data were analyzed by <mark>Team Member A and Team Member B</mark> using thematic analysis (Braun and Clarke). Each coder first cleaned the notes and transcripts, correcting transcription errors, marking added words in brackets and removed text with ellipses, and anonymizing teachers as T1 and T2. Coders then independently assigned short codes (3 to 8 words) to each response and grouped them into high-level themes and sub-themes. Next, the coders compared codes, explained their interpretations, resolved conflicts, and merged similar codes. This process was repeated until the coders agreed on a final set of themes, and the number of teachers raising each theme was recorded.
+
+| Theme | Sub-themes | Supporting quote | Teachers |
+| --- | --- | --- | --- |
+| <mark>Hands-on building drives engagement</mark> | <mark>Lego familiarity; making something their own</mark> | <mark>“Anything they can build with their hands.” (T2)</mark> | <mark>2 of 2</mark> |
+| <mark>Step-by-step scaffolding</mark> | <mark>One step at a time; wait for students</mark> | <mark>“Explain one step at a time and wait for them.” (T2)</mark> | <mark>2 of 2</mark> |
+| <mark>Feedback through playback, not judgment</mark> | <mark>Hear the mistake; self-correction</mark> | <mark>“Let them hear the mistake.” (T1)</mark> | <mark>2 of 2</mark> |
+| <mark>Friendly persona with simple language</mark> | <mark>Named character; age-appropriate words</mark> | <mark>“If it talks like a textbook, they tune out.” (T2)</mark> | <mark>2 of 2</mark> |
+
+These themes match guidance from the K-12 game design guest lecture (Spence Ray), which emphasized explicit step-by-step instructions, short and accessible language, creative choice, and a clear robot role (facilitator, teammate, or evaluator).
 
 ### Influence on Design
 
+<mark>Both teachers stressed hands-on building, so students compose music by placing Lego bricks on a plate rather than writing notation. Their call for step-by-step guidance shaped MIMI’s build tutorials, which give one instruction at a time and wait for students to finish. T1’s idea of letting students hear their mistakes became MIMI’s core feedback loop: it reads the plate and plays back exactly what was built. The emphasis on a named, friendly character with simple language led to the MIMI persona and to prompting the language model to speak at a middle school level.</mark>
 
 ### Reflection
 
+<mark>The questions about engagement and feedback gave the most concrete design guidance. The question about robot friendliness produced shorter answers, and a follow-up such as “Can you describe a classroom tool your students liked?” would have given more detail. We asked one probing question about prior music knowledge, which confirmed that the game should assume none. A lesson learned is to ask about classroom logistics, such as time per activity and group size, earlier in the interview.</mark>
 
 ---
 
-## Checkpoint 2
+## Checkpoint 2: Robot Concept and Embodiment
 
 ### Core Idea and Interaction Role
 
+MIMI (My Interactive Machine Instructor) is Reachy Mini as a Lego teacher who helps middle schoolers learn basic music theory by building songs. Students place Lego bricks on a Lego plate that works as a music staff. Each row is a pitch in the C major scale, from low C up to high G, and each column is a beat on the timeline. Brick length sets note duration: a 1-stud brick is a quarter note (1 beat), a 2-stud brick is a half note (2 beats), and a 4-stud brick is a whole note (4 beats). MIMI uses its camera and a vision-language model to read the plate, then plays the melody back through its speaker.
+
+The game has three modes:
+
+- **Build tutorial:** MIMI gives step-by-step instructions to build a known song, one brick at a time, and plays each phrase as it is completed.
+- **Compose:** students build a custom melody, such as writing their name musically, and MIMI plays it back.
+- **Echo challenge:** MIMI plays a short melody, and teams rebuild it on the plate. A team wins the round by matching the melody within 3 playbacks.
+
+MIMI acts as a **facilitator** and **tutor**: it explains rules, guides each step, and gives feedback by playing back what students built. Students do all the building, so they stay in control of the music.
 
 ### Behaviors and User Needs
 
+| Robot behavior | Capability used | Student need addressed |
+| --- | --- | --- |
+| Gives one build instruction at a time and waits for students to finish | Speaker, language model, camera | Step-by-step scaffolding |
+| Reads the brick plate and plays the melody back | Camera, vision-language model, speaker | Hearing mistakes and self-correcting |
+| Explains note values in simple words (“a longer brick holds the note longer”) | Language model prompted for middle school language | Accessible explanations without music jargon |
+| Nods and wiggles its antennas when a phrase is built or a challenge is matched | 6-DoF head, antennas | Immediate positive feedback |
+| Tilts its head and points out which beat sounds different on a mismatch | Head, speaker | Low-stakes feedback that shows where to fix |
+| Turns toward the team whose turn it is | Body rotation | Clear turn-taking in groups |
 
-### Embodiment Rationale
+Bricks use high-contrast colors on a fixed plate position so the camera can read them reliably. If the vision model misreads the plate during testing, a team member can control playback behind the scenes (Wizard of Oz), which the course allows as long as it causes no harm.
 
+### Embodiment and Persona Rationale
+
+**Persona.** MIMI is a patient, encouraging instructor who loves building and music. In music mode, MIMI can switch into “Beethoven Mini,” a playful composer character with bold eyebrows, a high collar, and headphone-style ear pieces. A named character with a clear personality makes the robot approachable and gives students a reason to follow its guidance.
+
+**Embodiment.** Reachy Mini’s small desktop form, round head, and goggle-like eyes already appear friendly. The MIMI nametag names the persona at a glance, and the badge logo, with MIMI’s head and antennas inside a starburst, gives the robot a consistent visual identity. The Beethoven Mini attachments signal the switch to music mode. The antennas remain uncovered because they carry most of the robot’s emotional expression.
+
+**Constraints.** Reachy Mini cannot grasp objects, so students place every brick while MIMI instructs, reads, and plays. Attachments must stay light to avoid straining the head motors. Standard Lego bricks are inexpensive and already in many classrooms, and the nametag is laser cut from 3 mm sheet, which keeps cost and fabrication time low.
+
+**Teacher panel motivation.** <mark>Both teachers emphasized hands-on building and step-by-step guidance, which led to Lego as the input method and MIMI as a patient tutor. T1’s point that students should hear their mistakes became the playback feedback loop.</mark>
 
 ---
 
@@ -110,26 +140,79 @@ We also designed a badge-style logo. It shows MIMI's head and antennas above the
 ## Checkpoint 7
 
 ### Prototype and Artifacts
-![]()
 
-### Design Process and Methods
+The current prototype gives Reachy Mini the MIMI persona through a laser-cut nametag in two materials and a badge logo, paired with a Lego plate music staff that students build on. <mark>The final prototype also adds Beethoven Mini attachments: 3D-printed eyebrows, a collar, and headphone-style ear pieces that clip onto the head for music mode.</mark>
 
 <img src="images/reachylegoteacherideation.jpg" alt="reachylegoteacherideation" width="50%">
 
+<p align="center"><em>Figure 1. Ideation sketch of MIMI as a Lego teacher: step-by-step building, the Beethoven Mini persona, and a Lego plate music staff where brick length sets note duration.</em></p>
+
+<img src="images/reachynametagAI.png" alt="reachynametagAI" width="50%">
+
+<p align="center"><em>Figure 2. Nametag and badge logo designs in Adobe Illustrator, used for laser cutting.</em></p>
+
+<mark>[Insert photo: Lego plate paper prototype with bricks placed as notes.] Figure 3. Paper and Lego prototype of the music staff.</mark>
+
+<mark>[Insert photo: fabricated PLA and acrylic nametags side by side.] Figure 4. Laser-cut nametags in both materials.</mark>
+
+<mark>[Insert photo: finished robot with nametag and attachments, front and side views.] Figure 5. Final MIMI embodiment.</mark>
+
+### Design Process and Methods
+
+1. **Sketching.** The team sketched MIMI as a Lego teacher, exploring a build mode and a music mode (Figure 1). The sketch defined the robot’s goals (teach step by step, use vision and language models, fit language to middle schoolers), the Beethoven Mini persona, and the Lego plate staff with brick lengths for quarter, half, and whole notes.
+2. **Digital design.** The nametag and badge logo were drawn in Adobe Illustrator (Figure 2), turning the sketched head shape, goggle eyes, and antennas into vector outlines for laser cutting.
+3. **Low-fidelity prototyping.** <mark>A paper grid and loose bricks were used to test whether the row-and-column staff was easy for students to read and whether the camera could see every brick from MIMI’s position.</mark>
+4. **High-fidelity fabrication.** The nametag was laser cut in recycled PLA sheet and acrylic sheet, each 3 mm, to compare finishes. <mark>The badge logo and Beethoven Mini attachments are next.</mark>
+
 ### Decisions and Feasibility
 
+| Decision | Driver | Result |
+| --- | --- | --- |
+| Students place bricks; MIMI instructs, reads, and plays | Actuation: Reachy Mini cannot grasp objects | All building stays hands-on for students |
+| Lego plate as the music staff | Requirements: hands-on, low-cost input that classrooms already have | Rows map to pitch, columns to beats, length to duration |
+| Camera plus vision-language model to read the plate | Interaction: playback feedback without extra hardware | <mark>High-contrast bricks and a fixed plate position improve reading accuracy</mark> |
+| Nametag in two materials | Materials: compare look, cost, and sustainability | Recycled PLA reduces waste; acrylic with red fill is easier to read |
+| Vector-scored outline vs. raster-engraved filled letters | Fabrication time and legibility | Scoring is faster; raster plus red fill is bolder |
+| Antennas left uncovered | Antennas carry emotion | Expressive poses remain visible |
+
+Materials and cost: one 3 mm recycled PLA sheet and one 3 mm acrylic sheet for the nametags, plus standard Lego bricks and a baseplate. <mark>Approximate cost and laser cutting time.</mark>
 
 ### Design Analysis
 
+**Affordances.** Lego bricks afford one familiar action, snapping onto the plate, so students need no training to start. Brick length maps directly to note length, making duration something students can see and feel. The grid makes pitch and timing readable at a glance, and the nametag tells students what to call the robot.
+
+**Materiality.** Recycled PLA has a matte, handmade look and supports sustainability, while its outlined letters are subtler. Acrylic looks polished, and its red-filled letters read clearly from across a classroom. Plastic bricks and rigid 3 mm sheet hold up to frequent handling by many students.
+
+**Interaction dimensions.**
+
+- *Modality:* students build with their hands; MIMI responds with speech, music, and head and antenna motion.
+- *Feedback timing:* MIMI plays back each phrase as soon as it is built, so cause and effect stay close together.
+- *Social role:* a patient tutor and facilitator; students remain the composers.
+- *Anthropomorphism:* the name, goggle eyes, and Beethoven Mini costume invite students to treat MIMI as a character, so its language model responses stay short and scripted around the game to keep expectations matched to its abilities.
+- *Group dynamics:* teams share one plate and take turns, with MIMI turning toward the active team.
+
+Consistent with amplification theory (Toyama), MIMI amplifies a teacher’s music lesson rather than replacing it, so the game is designed to fit within existing classroom lessons on rhythm and melody.
 
 ---
 
-## Checkpoint 8
+## Checkpoint 8: New Output and Fabricated Part
 
 ### Additional Output and Contribution
 
+Our new output is the Lego plate music staff design concept, paired with a behavior script for one Echo Challenge round. The staff maps each row to a pitch in the C major scale (low C to high G), each column to one beat, and brick length to duration: 1 stud for a quarter note, 2 studs for a half note, and 4 studs for a whole note. The behavior script lists MIMI’s line, head pose, and antenna motion for each step:
+
+1. MIMI greets the team and explains the round in one sentence.
+2. MIMI plays a short melody while bobbing its head to the beat.
+3. Teams build the melody on the plate while MIMI holds a “listening” head tilt.
+4. MIMI turns to the team, reads the plate, and plays back what they built.
+5. If it matches, MIMI wiggles its antennas and celebrates; if not, it names the beat that sounds different and allows another try.
+6. After 3 playbacks or a match, MIMI announces the result and starts the next round.
+
+This output advances the final embodiment by defining what the camera must see (the full plate from MIMI’s position) and which poses the attachments must not block, such as the head tilt and full antenna range.
+
+<mark>[Insert photo: paper prototype of the Lego plate staff with example melody.] Figure 6. Music staff concept.</mark>
 
 ### Selected Fabricated Part
 
+We selected the MIMI nametag, laser cut in both recycled PLA and acrylic and documented in Checkpoint 3. It names the persona for students at a glance, adds little weight, and was fast and inexpensive to cut from 3 mm sheet. Comparing the two versions also informed our material choice for the final robot: <mark>the red-filled acrylic tag, for legibility across a classroom</mark>.
 
----
