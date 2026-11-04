@@ -82,7 +82,7 @@ Bricks use high-contrast colors on a fixed plate position so the camera can read
 ## Checkpoint 3
 
 ### Assembled Nametag
-![]()
+<img src="images/miminametag.jpg" alt="reachynametag" width="50%">
 
 ### Description
 <img src="images/reachynametagAI.png" alt="reachynametagAI" width="50%">
