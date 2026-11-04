@@ -229,5 +229,4 @@ This output advances the final embodiment by defining what the camera must see (
 
 ### Selected Fabricated Part
 
-We selected the MIMI nametag, laser cut in both recycled PLA and acrylic and documented in Checkpoint 3. It names the persona for students at a glance, adds little weight, and was fast and inexpensive to cut from 3 mm sheet. Comparing the two versions also informed our material choice for the final robot: the red-filled acrylic tag, for legibility across a classroom.
-
+The selected fabricated part we chose to fabricate is MIMI's hands, 3D printed in white PLA. These hands are designed to hold MIMI's laser-cut conductor baton. The laser-cut accessories from Checkpoint 4 (glasses, bowtie, baton, and nametag) support this part by completing the conductor look.
