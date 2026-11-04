@@ -104,16 +104,17 @@ We also designed a badge-style logo. It shows MIMI's head and antennas above the
 ## Checkpoint 4
 
 ### Fabricated Part
-![]()
+<img src="images/lasercutmimiparts.jpg" alt="lasercut parts" width="50%">
 
 ### Materials
-
+To create the laser cut accessories for our MIMI Reachy Mini, we used Adobe Illustrator to design the vector files. Then, using a 4mm Plywood piece, we laser cut the parts using the Laser Cutter in the MakerLab. For the bowtie, we also added a laser engraving to add more details to the part.
 
 ### Fabrication Rationale
-
+<img src="images/lasercutmimiprocess.jpg" alt="lasercut process" width="50%">
+In this case, laser cutting was chosen over 3D printing or other low-cost materials because the pieces constructed were all 2D. Glasses, a conductor wand, and a bowtie, as well as a nametag, are items that don't require an advanced 3 dimension fabrication technique like 3D printing. In regards to other materials, wood allows us to customize the color with painting on top. Using the laser cutter also gives a crisp and clean look compared to hand-cutting pieces out of other materials.
 
 ### Design File
-**File:**
+**File:** [Adobe Illustrator file](ReachyNameTag.ai)
 
 ---
 
