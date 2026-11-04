@@ -138,10 +138,13 @@ Going for a conductor style anthropomorphization, we decided to give MIMI hands 
 ## Checkpoint 6
 
 ### Part Selection
+The primary embodiment part we chose to fabricate is **MIMI's hands**, 3D printed in white PLA (Checkpoint 5). These hands are designed to hold MIMI's laser-cut conductor baton. The laser-cut accessories from Checkpoint 4 (glasses, bowtie, baton, and nametag) support this part by completing the conductor look.
 
 
 ### Embodiment Contribution
-![]()
+ <img src="images/mimiconductor.jpg" alt="mimiconductor" width="100%">
+ 
+The printed hands are shown in the *Hands Front* and *Hands Back* photos and in the 3D printing process photo above. They give MIMI a physical way to hold the baton, which turns her into a conductor figure rather than just a robot with accessories. With the baton in hand, MIMI appears to be "conducting" the user. This makes her role in the interaction clearer and her character more human-like. The laser-cut glasses, bowtie, and nametag reinforce the same persona. Together, these parts make MIMI's identity readable at a glance.
 
 ---
 
@@ -161,9 +164,13 @@ The current prototype gives Reachy Mini the MIMI persona through a laser-cut nam
 
 <mark>[Insert photo: Lego plate paper prototype with bricks placed as notes.] Figure 3. Paper and Lego prototype of the music staff.</mark>
 
-<mark>[Insert photo: fabricated PLA and acrylic nametags side by side.] Figure 4. Laser-cut nametags in both materials.</mark>
+<img src="images/miminametag.jpg" alt="reachynametag" width="50%">
 
-<mark>[Insert photo: finished robot with nametag and attachments, front and side views.] Figure 5. Final MIMI embodiment.</mark>
+<p align="center"><em> Figure 4. Laser-cut nametags in both materials.</em></p>
+
+ <img src="images/mimiconductor.jpg" alt="mimiconductor" width="50%">
+ 
+ <p align="center"><em>Figure 5. Final MIMI embodiment.</em></p>
 
 ### Design Process and Methods
 
