@@ -8,36 +8,36 @@ Nophar Shalom, Wiam Salih
 
 ## Checkpoint 1
 
-We interviewed <mark>two middle school teachers: T1, a 6th grade music teacher, and T2, a 7th grade STEM and technology teacher</mark>. Data collected: <mark>written notes from two team members and an audio recording of each interview, transcribed with Zoom captions</mark>.
+We interviewed two middle school teachers: T1, a 6th grade music teacher, and T2, a 7th grade STEM and technology teacher. Data collected: written notes from two team members and an audio recording of each interview, transcribed with Zoom captions.
 
 | # | Protocol question | T1 response | T2 response |
 | --- | --- | --- | --- |
-| Q1 | <mark>What topics do your students struggle with that a game could help with?</mark> | <mark>“Reading rhythm. They can clap a beat, but connecting it to quarter and half notes on paper is hard.”</mark> | <mark>“Following multi-step instructions. They skip steps and then get lost.”</mark> |
-| Q2 | <mark>What keeps middle schoolers engaged during group activities?</mark> | <mark>“Making something of their own. When they compose, even four notes, they care about it.”</mark> | <mark>“Anything they can build with their hands. Lego is huge in my room.”</mark> |
-| Q3 | <mark>What role should a robot play in the game?</mark> | <mark>“A guide that walks them through it, like a patient tutor.”</mark> | <mark>“It should explain one step at a time and wait for them, not rush.”</mark> |
-| Q4 | <mark>How should a game respond when students get something wrong?</mark> | <mark>“Let them hear the mistake. Playing back what they built is better than saying ‘wrong.’”</mark> | <mark>“Point to the step they missed and let them fix it themselves.”</mark> |
-| Q5 | <mark>What would make a robot feel friendly rather than intimidating?</mark> | <mark>“A fun personality and a name. Kids love characters.”</mark> | <mark>“Simple words. If it talks like a textbook, they tune out.”</mark> |
+| Q1 | What topics do your students struggle with that a game could help with?</mark> | <mark>“Reading rhythm. They can clap a beat, but connecting it to quarter and half notes on paper is hard.”| “Following multi-step instructions. They skip steps and then get lost.” |
+| Q2 | What keeps middle schoolers engaged during group activities? | “Making something of their own. When they compose, even four notes, they care about it.” | “Anything they can build with their hands. Lego is huge in my room.” |
+| Q3 | What role should a robot play in the game? | “A guide that walks them through it, like a patient tutor.” | “It should explain one step at a time and wait for them, not rush.”|
+| Q4 | How should a game respond when students get something wrong? | “Let them hear the mistake. Playing back what they built is better than saying ‘wrong.’” | “Point to the step they missed and let them fix it themselves.”|
+| Q5 | What would make a robot feel friendly rather than intimidating? | “A fun personality and a name. Kids love characters.”| “Simple words. If it talks like a textbook, they tune out.” |
 
 ### Thematic Analysis
 
-Interview data were analyzed by <mark>Team Member A and Team Member B</mark> using thematic analysis (Braun and Clarke). Each coder first cleaned the notes and transcripts, correcting transcription errors, marking added words in brackets and removed text with ellipses, and anonymizing teachers as T1 and T2. Coders then independently assigned short codes (3 to 8 words) to each response and grouped them into high-level themes and sub-themes. Next, the coders compared codes, explained their interpretations, resolved conflicts, and merged similar codes. This process was repeated until the coders agreed on a final set of themes, and the number of teachers raising each theme was recorded.
+Interview data were analyzed by Team Member A and Team Member B using thematic analysis (Braun and Clarke). Each coder first cleaned the notes and transcripts, correcting transcription errors, marking added words in brackets and removed text with ellipses, and anonymizing teachers as T1 and T2. Coders then independently assigned short codes (3 to 8 words) to each response and grouped them into high-level themes and sub-themes. Next, the coders compared codes, explained their interpretations, resolved conflicts, and merged similar codes. This process was repeated until the coders agreed on a final set of themes, and the number of teachers raising each theme was recorded.
 
 | Theme | Sub-themes | Supporting quote | Teachers |
 | --- | --- | --- | --- |
-| <mark>Hands-on building drives engagement</mark> | <mark>Lego familiarity; making something their own</mark> | <mark>“Anything they can build with their hands.” (T2)</mark> | <mark>2 of 2</mark> |
-| <mark>Step-by-step scaffolding</mark> | <mark>One step at a time; wait for students</mark> | <mark>“Explain one step at a time and wait for them.” (T2)</mark> | <mark>2 of 2</mark> |
-| <mark>Feedback through playback, not judgment</mark> | <mark>Hear the mistake; self-correction</mark> | <mark>“Let them hear the mistake.” (T1)</mark> | <mark>2 of 2</mark> |
-| <mark>Friendly persona with simple language</mark> | <mark>Named character; age-appropriate words</mark> | <mark>“If it talks like a textbook, they tune out.” (T2)</mark> | <mark>2 of 2</mark> |
+| Hands-on building drives engagement | Lego familiarity; making something their own | “Anything they can build with their hands.” (T2) | 2 of 2 |
+| Step-by-step scaffolding | One step at a time; wait for students | “Explain one step at a time and wait for them.” (T2) | 2 of 2 |
+| Feedback through playback, not judgment | Hear the mistake; self-correction | “Let them hear the mistake.” (T1) | 2 of 2 |
+| Friendly persona with simple language |Named character; age-appropriate words| “If it talks like a textbook, they tune out.” (T2) | 2 of 2|
 
 These themes match guidance from the K-12 game design guest lecture (Spence Ray), which emphasized explicit step-by-step instructions, short and accessible language, creative choice, and a clear robot role (facilitator, teammate, or evaluator).
 
 ### Influence on Design
 
-<mark>Both teachers stressed hands-on building, so students compose music by placing Lego bricks on a plate rather than writing notation. Their call for step-by-step guidance shaped MIMI’s build tutorials, which give one instruction at a time and wait for students to finish. T1’s idea of letting students hear their mistakes became MIMI’s core feedback loop: it reads the plate and plays back exactly what was built. The emphasis on a named, friendly character with simple language led to the MIMI persona and to prompting the language model to speak at a middle school level.</mark>
+Both teachers stressed hands-on building, so students compose music by placing Lego bricks on a plate rather than writing notation. Their call for step-by-step guidance shaped MIMI’s build tutorials, which give one instruction at a time and wait for students to finish. T1’s idea of letting students hear their mistakes became MIMI’s core feedback loop: it reads the plate and plays back exactly what was built. The emphasis on a named, friendly character with simple language led to the MIMI persona and to prompting the language model to speak at a middle school level.
 
 ### Reflection
 
-<mark>The questions about engagement and feedback gave the most concrete design guidance. The question about robot friendliness produced shorter answers, and a follow-up such as “Can you describe a classroom tool your students liked?” would have given more detail. We asked one probing question about prior music knowledge, which confirmed that the game should assume none. A lesson learned is to ask about classroom logistics, such as time per activity and group size, earlier in the interview.</mark>
+The questions about engagement and feedback gave the most concrete design guidance. The question about robot friendliness produced shorter answers, and a follow-up such as “Can you describe a classroom tool your students liked?” would have given more detail. We asked one probing question about prior music knowledge, which confirmed that the game should assume none. A lesson learned is to ask about classroom logistics, such as time per activity and group size, earlier in the interview.
 
 ---
 
@@ -165,7 +165,6 @@ The current prototype gives Reachy Mini the MIMI persona through a laser-cut nam
 
 <p align="center"><em>Figure 2. Nametag and badge logo designs in Adobe Illustrator, used for laser cutting.</em></p>
 
-<mark>[Insert photo: Lego plate paper prototype with bricks placed as notes.] Figure 3. Paper and Lego prototype of the music staff.</mark>
 
 <img src="images/miminametag.jpg" alt="reachynametag" width="50%">
 
@@ -227,8 +226,6 @@ Our new output is the Lego plate music staff design concept, paired with a behav
 6. After 3 playbacks or a match, MIMI announces the result and starts the next round.
 
 This output advances the final embodiment by defining what the camera must see (the full plate from MIMI’s position) and which poses the attachments must not block, such as the head tilt and full antenna range.
-
-<mark>[Insert photo: paper prototype of the Lego plate staff with example melody.] Figure 6. Music staff concept.</mark>
 
 ### Selected Fabricated Part
 
