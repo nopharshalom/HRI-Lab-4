@@ -76,7 +76,7 @@ Bricks use high-contrast colors on a fixed plate position so the camera can read
 
 **Constraints.** Reachy Mini cannot grasp objects, so students place every brick while MIMI instructs, reads, and plays. Attachments must stay light to avoid straining the head motors. Standard Lego bricks are inexpensive and already in many classrooms, and the nametag is laser cut from 3 mm sheet, which keeps cost and fabrication time low.
 
-**Teacher panel motivation.** <mark>Both teachers emphasized hands-on building and step-by-step guidance, which led to Lego as the input method and MIMI as a patient tutor. T1’s point that students should hear their mistakes became the playback feedback loop.</mark>
+**Teacher panel motivation.** Both teachers emphasized hands-on building and step-by-step guidance, which led to Lego as the input method and MIMI as a patient tutor. T1’s point that students should hear their mistakes became the playback feedback loop.
 
 ---
 
@@ -152,7 +152,7 @@ The printed hands are shown in the *Hands Front* and *Hands Back* photos and in 
 
 ### Prototype and Artifacts
 
-The current prototype gives Reachy Mini the MIMI persona through a laser-cut nametag in two materials and a badge logo, paired with a Lego plate music staff that students build on. <mark>The final prototype also adds Beethoven Mini attachments: 3D-printed eyebrows, a collar, and headphone-style ear pieces that clip onto the head for music mode.</mark>
+The current prototype gives Reachy Mini the MIMI persona through a laser-cut nametag in two materials and a badge logo, paired with a Lego plate music staff that students build on. The final prototype also adds Beethoven Mini attachments: 3D-printed eyebrows, a collar, and headphone-style ear pieces that clip onto the head for music mode.
 
 
 | Ideation sketch | Fabrication sketch |
@@ -179,7 +179,7 @@ The current prototype gives Reachy Mini the MIMI persona through a laser-cut nam
 1. **Sketching.** The team sketched MIMI as a Lego teacher, exploring a build mode and a music mode (Figure 1). The sketch defined the robot’s goals (teach step by step, use vision and language models, fit language to middle schoolers), the Beethoven Mini persona, and the Lego plate staff with brick lengths for quarter, half, and whole notes.
 2. **Digital design.** The nametag and badge logo were drawn in Adobe Illustrator (Figure 2), turning the sketched head shape, goggle eyes, and antennas into vector outlines for laser cutting.
 3. **Low-fidelity prototyping.** A paper grid and loose bricks were used to test whether the row-and-column staff was easy for students to read and whether the camera could see every brick from MIMI’s position.
-4. **High-fidelity fabrication.** The nametag was laser cut in recycled PLA sheet and acrylic sheet, each 3 mm, to compare finishes. <mark>The badge logo and Beethoven Mini attachments are next.</mark>
+4. **High-fidelity fabrication.** The nametag was laser cut in recycled PLA sheet and acrylic sheet, each 3 mm, to compare finishes. The badge logo and Beethoven Mini attachments are next.
 
 ### Decisions and Feasibility
 
