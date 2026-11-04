@@ -4,6 +4,7 @@ Design, Prototyping, and Anthropomorphization
 Nophar Shalom, Wiam Salih
 
 ---
+<img src="images/mimiconductor.jpg" alt="mimiconductor" width="50%">
 
 ## Checkpoint 1
 
@@ -120,11 +121,17 @@ In this case, laser cutting was chosen over 3D printing or other low-cost materi
 
 ## Checkpoint 5
 
+Going for a conductor style anthropomorphization, we decided to give MIMI hands to hold a baton and act as if she is conducting the user. Using white PLA we 3D printed the design below.
+
 ### Assembled Printed-Part Photos
-![]()
+| Hands Front | Hands Back |
+| :---: | :---: |
+| ![Front](images/mimihandsfront.jpg) | ![Back](images/mimihandsback.jpg) |
+
+<img src="images/3dprintinghands.jpg" alt="3D print process" width="50%">
 
 ### Construction Files
-**Files:**
+**Files:** [Sliced Bambu File](mimi3dhands.3mf)
 
 ---
 
