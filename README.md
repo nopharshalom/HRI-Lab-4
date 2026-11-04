@@ -154,6 +154,8 @@ The printed hands are shown in the *Hands Front* and *Hands Back* photos and in 
 
 The current prototype gives Reachy Mini the MIMI persona through a laser-cut nametag in two materials and a badge logo, paired with a Lego plate music staff that students build on. <mark>The final prototype also adds Beethoven Mini attachments: 3D-printed eyebrows, a collar, and headphone-style ear pieces that clip onto the head for music mode.</mark>
 
+| Ideation sketch | Fabrication sketch |
+| :---: | :---: |
 | ![img1](images/reachylegoteacherideation.jpg) | ![img2](images/mimifabricationideation.jpg) |
 
 <p align="center"><em>Figure 1. Ideation sketch of MIMI as a Lego teacher: step-by-step building, the Beethoven Mini persona, and a Lego plate music staff where brick length sets note duration.</em></p>
