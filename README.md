@@ -178,7 +178,7 @@ The current prototype gives Reachy Mini the MIMI persona through a laser-cut nam
 
 1. **Sketching.** The team sketched MIMI as a Lego teacher, exploring a build mode and a music mode (Figure 1). The sketch defined the robot’s goals (teach step by step, use vision and language models, fit language to middle schoolers), the Beethoven Mini persona, and the Lego plate staff with brick lengths for quarter, half, and whole notes.
 2. **Digital design.** The nametag and badge logo were drawn in Adobe Illustrator (Figure 2), turning the sketched head shape, goggle eyes, and antennas into vector outlines for laser cutting.
-3. **Low-fidelity prototyping.** <mark>A paper grid and loose bricks were used to test whether the row-and-column staff was easy for students to read and whether the camera could see every brick from MIMI’s position.</mark>
+3. **Low-fidelity prototyping.** A paper grid and loose bricks were used to test whether the row-and-column staff was easy for students to read and whether the camera could see every brick from MIMI’s position.
 4. **High-fidelity fabrication.** The nametag was laser cut in recycled PLA sheet and acrylic sheet, each 3 mm, to compare finishes. <mark>The badge logo and Beethoven Mini attachments are next.</mark>
 
 ### Decisions and Feasibility
@@ -187,12 +187,12 @@ The current prototype gives Reachy Mini the MIMI persona through a laser-cut nam
 | --- | --- | --- |
 | Students place bricks; MIMI instructs, reads, and plays | Actuation: Reachy Mini cannot grasp objects | All building stays hands-on for students |
 | Lego plate as the music staff | Requirements: hands-on, low-cost input that classrooms already have | Rows map to pitch, columns to beats, length to duration |
-| Camera plus vision-language model to read the plate | Interaction: playback feedback without extra hardware | <mark>High-contrast bricks and a fixed plate position improve reading accuracy</mark> |
+| Camera plus vision-language model to read the plate | Interaction: playback feedback without extra hardware | High-contrast bricks and a fixed plate position improve reading accuracy|
 | Nametag in two materials | Materials: compare look, cost, and sustainability | Recycled PLA reduces waste; acrylic with red fill is easier to read |
 | Vector-scored outline vs. raster-engraved filled letters | Fabrication time and legibility | Scoring is faster; raster plus red fill is bolder |
 | Antennas left uncovered | Antennas carry emotion | Expressive poses remain visible |
 
-Materials and cost: one 3 mm recycled PLA sheet and one 3 mm acrylic sheet for the nametags, plus standard Lego bricks and a baseplate. <mark>Approximate cost and laser cutting time.</mark>
+Materials and cost: one 3 mm recycled PLA sheet and one 3 mm acrylic sheet for the nametags, plus standard Lego bricks and a baseplate. Approximate cost and laser cutting time.
 
 ### Design Analysis
 
@@ -229,5 +229,5 @@ This output advances the final embodiment by defining what the camera must see (
 
 ### Selected Fabricated Part
 
-We selected the MIMI nametag, laser cut in both recycled PLA and acrylic and documented in Checkpoint 3. It names the persona for students at a glance, adds little weight, and was fast and inexpensive to cut from 3 mm sheet. Comparing the two versions also informed our material choice for the final robot: <mark>the red-filled acrylic tag, for legibility across a classroom</mark>.
+We selected the MIMI nametag, laser cut in both recycled PLA and acrylic and documented in Checkpoint 3. It names the persona for students at a glance, adds little weight, and was fast and inexpensive to cut from 3 mm sheet. Comparing the two versions also informed our material choice for the final robot: the red-filled acrylic tag, for legibility across a classroom.
 
