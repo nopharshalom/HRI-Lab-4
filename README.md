@@ -121,7 +121,7 @@ In this case, laser cutting was chosen over 3D printing or other low-cost materi
 
 ## Checkpoint 5
 
-Going for a conductor style anthropomorphization, we decided to give MIMI hands to hold a baton and act as if she is conducting the user. Using white PLA we 3D printed the design below.
+Going for a conductor style anthropomorphization, we decided to give MIMI hands to hold a baton and act as if she is conducting the user. Using white PLA we 3D printed the design below, referencing this design from [MakerWorld.com](https://makerworld.com/en/models/2668350-realistic-hand-models-pack?from=search#profileId-2953080)
 
 ### Assembled Printed-Part Photos
 | Hands Front | Hands Back |
