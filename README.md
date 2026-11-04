@@ -4,7 +4,7 @@ Design, Prototyping, and Anthropomorphization
 Nophar Shalom, Wiam Salih
 
 ---
-<img src="images/mimiconductor.jpg" alt="mimiconductor" width="50%">
+<img src="images/mimiconductor.jpg" alt="mimiconductor" width="100%">
 
 ## Checkpoint 1
 
