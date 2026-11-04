@@ -12,7 +12,7 @@ We interviewed two middle school teachers: T1, a 6th grade music teacher, and T2
 
 | # | Protocol question | T1 response | T2 response |
 | --- | --- | --- | --- |
-| Q1 | What topics do your students struggle with that a game could help with?</mark> | <mark>“Reading rhythm. They can clap a beat, but connecting it to quarter and half notes on paper is hard.”| “Following multi-step instructions. They skip steps and then get lost.” |
+| Q1 | What topics do your students struggle with that a game could help with? | “Reading rhythm. They can clap a beat, but connecting it to quarter and half notes on paper is hard.”| “Following multi-step instructions. They skip steps and then get lost.” |
 | Q2 | What keeps middle schoolers engaged during group activities? | “Making something of their own. When they compose, even four notes, they care about it.” | “Anything they can build with their hands. Lego is huge in my room.” |
 | Q3 | What role should a robot play in the game? | “A guide that walks them through it, like a patient tutor.” | “It should explain one step at a time and wait for them, not rush.”|
 | Q4 | How should a game respond when students get something wrong? | “Let them hear the mistake. Playing back what they built is better than saying ‘wrong.’” | “Point to the step they missed and let them fix it themselves.”|
