@@ -178,8 +178,7 @@ The current prototype gives Reachy Mini the MIMI persona through a laser-cut nam
 
 1. **Sketching.** The team sketched MIMI as a Lego teacher, exploring a build mode and a music mode (Figure 1). The sketch defined the robot’s goals (teach step by step, use vision and language models, fit language to middle schoolers), the Beethoven Mini persona, and the Lego plate staff with brick lengths for quarter, half, and whole notes.
 2. **Digital design.** The nametag and badge logo were drawn in Adobe Illustrator (Figure 2), turning the sketched head shape, goggle eyes, and antennas into vector outlines for laser cutting.
-3. **Low-fidelity prototyping.** A paper grid and loose bricks were used to test whether the row-and-column staff was easy for students to read and whether the camera could see every brick from MIMI’s position.
-4. **High-fidelity fabrication.** The nametag was laser cut in recycled PLA sheet and acrylic sheet, each 3 mm, to compare finishes. The badge logo and Beethoven Mini attachments are next.
+3. **High-fidelity fabrication.** The nametag was laser cut in recycled PLA sheet and acrylic sheet, each 3 mm, to compare finishes. The nametag was laser cut in recycled PLA sheet and acrylic sheet, each 3 mm, to compare finishes. The hands were 3D printed with white PLA and the rest of the music conductor accessories were laser cut from 4mm plywood.
 
 ### Decisions and Feasibility
 
